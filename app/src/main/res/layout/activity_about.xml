@@ -19,7 +19,7 @@
         android:gravity="center"
         android:text="@string/app_name"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-        android:textColor="@color/teal500"
+        android:textColor="#834BEF"
         app:layout_constraintBottom_toTopOf="@+id/text_developer"
         app:layout_constraintEnd_toStartOf="@+id/text_app_version"
         app:layout_constraintHorizontal_bias="0.5"

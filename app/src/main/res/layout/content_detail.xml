@@ -142,12 +142,12 @@
 
         <ImageView
             android:id="@+id/icon_replay"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:visibility="visible"
             app:layout_constraintStart_toStartOf="@+id/guideline_vertical_16dp"
             app:layout_constraintTop_toTopOf="@+id/text_repeat"
-            app:srcCompat="@drawable/ic_round_repeat_24px" />
+            app:srcCompat="@drawable/ic_repeat_2" />
 
         <ImageView
             android:id="@+id/icon_note"
