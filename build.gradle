@@ -4,12 +4,13 @@ buildscript {
     repositories {
         jcenter()
         google()
-        maven {
-            url 'https://maven.fabric.io/public'
-        }
+
+            maven { url 'https://maven.fabric.io/public' }
+
+
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.android.tools.build:gradle:3.3.2'
         classpath 'com.google.gms:google-services:4.2.0'
         classpath 'com.google.firebase:firebase-plugins:1.1.5'
         classpath 'io.fabric.tools:gradle:1.26.1'
@@ -19,7 +20,9 @@ buildscript {
 allprojects {
     repositories {
         google()
-        jcenter()
+
+        mavenCentral()
+        jcenter{ url "http://jcenter.bintray.com/" }
         maven { url "https://jitpack.io" }
     }
 }
