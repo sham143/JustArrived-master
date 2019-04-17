@@ -269,9 +269,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView
             case R.id.nav_feedback:
                 AppUtils.sendFeedbackEmail(this);
                 break;
-            case R.id.nav_share:
-                AppUtils.rateApp(this);
-                break;
+            /*case R.id.nav_share:
+                AppUtils.rateApp(this);*/
+//                break;
             case R.id.nav_about:
                 startActivity(new Intent(this, AboutActivity.class));
                 break;
